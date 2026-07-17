@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#e5ad96">
+    <meta
+      name="description"
+      content="Friendlyhours mobile social experience — groups, conversations, and room chat."
+    >
+    <title>Friendlyhours — Social Experience</title>
+    <link
+      rel="preload"
+      href="screen%202/assets/fonts/inter-tight-regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      href="screen%202/assets/fonts/inter-tight-medium.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      href="screen%202/assets/fonts/inter-tight-semibold.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    >
+    <link rel="stylesheet" href="assets/css/showcase.css">
+    <script src="screen%201/glass-avatar.js" defer></script>
+    <script src="assets/js/live-screen.js" defer></script>
+  </head>
+  <body>
+    <main class="showcase" aria-labelledby="showcase-title">
+      <h1 id="showcase-title" class="visually-hidden">
+        Friendlyhours mobile social experience
+      </h1>
+
+      <div class="showcase__stage">
+        <mobile-screen
+          class="screen screen--conversation"
+          source="screen 2"
+          aria-label="Peak Seekers group conversation"
+        ></mobile-screen>
+
+        <mobile-screen
+          class="screen screen--groups"
+          source="screen 1"
+          aria-label="Friendlyhours groups discovery"
+        ></mobile-screen>
+
+        <mobile-screen
+          class="screen screen--room"
+          source="screen 3"
+          aria-label="Live room chat"
+        ></mobile-screen>
+      </div>
+    </main>
+  </body>
+</html>

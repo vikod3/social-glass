@@ -1,0 +1,3074 @@
+/* matches */
+
+position: relative;
+width: 393px;
+height: 852px;
+
+background: #E2EAE8;
+
+
+/* bg-gradient-circle */
+
+position: absolute;
+width: 622px;
+height: 622px;
+left: calc(50% - 622px/2 - 224.5px);
+top: 411px;
+
+background: #F6F3E0;
+filter: blur(100px);
+
+
+/* bg-circles-overlay */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 852px;
+left: 0px;
+top: 0px;
+
+
+
+/* status-bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 112px;
+
+position: absolute;
+width: 393px;
+height: 64px;
+left: calc(50% - 393px/2);
+top: 0px;
+
+
+
+/* Time */
+
+width: 140.5px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Time */
+
+position: absolute;
+left: 36.96%;
+right: 36.71%;
+top: 33.96%;
+bottom: 25.3%;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 590;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+
+color: #000000;
+
+
+
+/* Levels */
+
+width: 140.5px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Battery */
+
+position: absolute;
+left: 57.65%;
+right: 22.9%;
+top: 42.59%;
+bottom: 33.33%;
+
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 25px;
+left: calc(50% - 25px/2 + 23.25px);
+top: 42.59%;
+bottom: 33.33%;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+border: 1px solid #000000;
+border-radius: 4.3px;
+
+
+/* Cap */
+
+position: absolute;
+width: 1.33px;
+left: calc(50% - 1.33px/2 + 37.41px);
+top: 51.45%;
+bottom: 41.01%;
+
+background: #000000;
+mix-blend-mode: normal;
+opacity: 0.4;
+
+
+/* Capacity */
+
+position: absolute;
+width: 21px;
+left: calc(50% - 21px/2 + 23.25px);
+top: 46.3%;
+bottom: 37.04%;
+
+background: #000000;
+border-radius: 2.5px;
+
+
+/* Wifi */
+
+position: absolute;
+width: 17.14px;
+left: calc(50% - 17.14px/2 - 4.98px);
+top: 43.77%;
+bottom: 33.4%;
+
+background: #000000;
+
+
+/* Cellular Connection */
+
+position: absolute;
+width: 19.2px;
+left: calc(50% - 19.2px/2 - 30.65px);
+top: 43.58%;
+bottom: 33.77%;
+
+background: #000000;
+
+
+/* group-info */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 25px 0px 15px;
+gap: 15px;
+
+position: absolute;
+width: 393px;
+height: 55px;
+left: 0px;
+top: 144px;
+
+
+
+/* group-info/avatars */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 160px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* avatar-1 */
+
+width: 55px;
+height: 55px;
+
+border: 2px solid #E3EAE8;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* avatar-1-image */
+
+position: absolute;
+width: 151px;
+height: 101px;
+left: -45px;
+top: -10px;
+
+background: url(image.png);
+
+
+/* avatar-2 */
+
+width: 55px;
+height: 55px;
+
+border: 2px solid #E3EAE8;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* avatar-2-image */
+
+position: absolute;
+width: 105px;
+height: 158px;
+left: -26px;
+top: -33px;
+
+background: url(image.png);
+
+
+/* avatar-3 */
+
+width: 55px;
+height: 55px;
+
+border: 2px solid #E3EAE8;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* avatar-3-image */
+
+position: absolute;
+width: 63px;
+height: 84px;
+left: -3px;
+top: -12px;
+
+background: url(image.png);
+
+
+/* avatar-count */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 10px;
+gap: 10px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* +14 */
+
+width: 24px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 13px;
+/* identical to box height, or 87% */
+text-align: right;
+letter-spacing: -0.005em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* group-info/details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 5px;
+
+width: 178px;
+height: 41px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* group-name */
+
+width: 178px;
+height: 17px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 17px;
+/* identical to box height, or 100% */
+text-align: right;
+letter-spacing: -0.01em;
+
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* group-meta */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 178px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* member-count */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 102px;
+height: 19px;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* members */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Path */
+
+position: absolute;
+left: 2.33%;
+right: 88.36%;
+top: 62.5%;
+bottom: 20.83%;
+
+border: 1.15px solid #242424;
+
+
+/* Oval */
+
+position: absolute;
+left: 4.27%;
+right: 90.3%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.15px solid #242424;
+
+
+/* Path */
+
+position: absolute;
+left: 13.97%;
+right: 82.92%;
+top: 62.5%;
+bottom: 20.83%;
+
+border: 1.15px solid #242424;
+
+
+/* Path */
+
+position: absolute;
+left: 12.42%;
+right: 84.87%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.15px solid #242424;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 81.37%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* member-count-text */
+
+width: 78px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 13px;
+/* identical to box height, or 87% */
+text-align: right;
+letter-spacing: -0.005em;
+
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* card-feed */
+
+position: absolute;
+width: 393px;
+height: 633px;
+left: 0px;
+top: 219px;
+
+
+
+/* card-feed-masked */
+
+position: absolute;
+width: 393px;
+height: 633px;
+left: 0px;
+top: 219px;
+
+
+
+/* mask */
+
+position: absolute;
+width: 393px;
+height: 633px;
+left: 0px;
+top: 219px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #000000 68.18%, #000000 100%);
+
+
+/* card-1 */
+
+position: absolute;
+width: 383px;
+height: 515px;
+left: 5px;
+top: 219px;
+
+
+
+/* Group 1707480186 */
+
+position: absolute;
+width: 383px;
+height: 515px;
+left: 5px;
+top: 219px;
+
+
+
+/* card-1/footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 15px;
+gap: 10px;
+
+position: absolute;
+width: 383px;
+height: 445px;
+left: calc(50% - 383px/2);
+top: 289px;
+
+background: #232021;
+border-radius: 0px 0px 35px 35px;
+
+
+/* card-1/author-info */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+margin: 0 auto;
+width: 353px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* author-avatars */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 160px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo and search */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 125px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* Frame 1707484491 */
+
+width: 55px;
+height: 55px;
+
+border: 2px solid #232021;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* image 1 */
+
+position: absolute;
+width: 151px;
+height: 101px;
+left: -45px;
+top: -10px;
+
+background: url(image.png);
+
+
+/* Frame 1707484494 */
+
+width: 55px;
+height: 55px;
+
+border: 2px solid #232021;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* image 2 */
+
+position: absolute;
+width: 105px;
+height: 158px;
+left: -26px;
+top: -33px;
+
+background: url(image.png);
+
+
+/* Frame 1707484495 */
+
+width: 55px;
+height: 55px;
+
+border: 2px solid #232021;
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* image 3 */
+
+position: absolute;
+width: 63px;
+height: 84px;
+left: -3px;
+top: -12px;
+
+background: url(image.png);
+
+
+/* Frame 1707484482 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* +4 */
+
+width: 19px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 13px;
+/* identical to box height, or 87% */
+text-align: right;
+letter-spacing: -0.005em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* author-details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 5px;
+
+width: 193px;
+height: 41px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* author-group-name */
+
+width: 193px;
+height: 17px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 17px;
+/* identical to box height, or 100% */
+text-align: right;
+letter-spacing: -0.01em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* subscribes */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 193px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* author-member-count */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 96px;
+height: 19px;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* members */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Path */
+
+position: absolute;
+left: 2.47%;
+right: 87.63%;
+top: 62.5%;
+bottom: 20.83%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Oval */
+
+position: absolute;
+left: 4.54%;
+right: 89.69%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Path */
+
+position: absolute;
+left: 14.84%;
+right: 81.86%;
+top: 62.5%;
+bottom: 20.83%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Path */
+
+position: absolute;
+left: 13.19%;
+right: 83.92%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 80.21%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* 7 members */
+
+width: 72px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 13px;
+/* identical to box height, or 87% */
+text-align: right;
+letter-spacing: -0.005em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* card-1/content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 30px;
+gap: 20px;
+isolation: isolate;
+
+position: absolute;
+width: 383px;
+height: 430px;
+left: 5px;
+top: calc(50% - 430px/2 + 8px);
+
+background: #242424;
+border-radius: 35px;
+
+
+/* card-1-hero-image */
+
+position: absolute;
+width: 904px;
+height: 501px;
+right: -99px;
+top: -71px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 384px;
+height: 250px;
+left: -1px;
+top: 180px;
+
+background: rgba(255, 255, 255, 0.01);
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* card-1-title */
+
+width: 261px;
+height: 93px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 31px;
+/* or 86% */
+letter-spacing: -0.02em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* card-1/tags-and-actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 323px;
+height: 99px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+
+/* tags */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 323px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* tag-craftbeer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: rgba(35, 32, 33, 0.4);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* tag-hiking */
+
+width: 54px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* tag-running */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: rgba(35, 32, 33, 0.4);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* tag-bouldering */
+
+width: 35px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* action-buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: rgba(35, 32, 33, 0.4);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* btn-skip */
+
+width: 46px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* tag */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: rgba(35, 32, 33, 0.4);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Hi Carsten, how can */
+
+width: 60px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #F6FEFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 323px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1707484532 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 5px;
+
+width: 323px;
+height: 59px;
+
+background: #232021;
+border-radius: 60px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* btn-star */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 97px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 16.41px;
+height: 16.41px;
+
+background: #F6FEFC;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* dislike */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* star */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* btn-share */
+
+position: absolute;
+left: 27.27%;
+right: 27.27%;
+top: 27.27%;
+bottom: 27.27%;
+
+opacity: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 22.14px;
+height: 22.14px;
+left: calc(50% - 22.14px/2 + 0px);
+top: calc(50% - 22.14px/2 - 0px);
+
+background: #F6FEFC;
+
+
+/* like */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Multiple Forward Right */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.57%;
+right: 5.21%;
+top: 15.62%;
+bottom: 15.62%;
+
+background: #F6FEFC;
+
+
+/* btn-like */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 97px;
+height: 55px;
+
+background: linear-gradient(119.24deg, #F29B58 47.1%, #DB90BD 76.69%);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* heart */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 39.26%;
+right: 39.26%;
+top: 34.44%;
+bottom: 31.85%;
+
+background: #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.11%;
+right: 37.11%;
+top: 27.27%;
+bottom: 27.27%;
+
+background: #F6FEFC;
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* card-2 */
+
+position: absolute;
+width: 383px;
+height: 515px;
+left: 5px;
+top: 739px;
+
+
+
+/* Group 1707480186 */
+
+position: absolute;
+width: 383px;
+height: 515px;
+left: 5px;
+top: 739px;
+
+
+
+/* card-2/footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 15px;
+gap: 10px;
+
+position: absolute;
+width: 383px;
+height: 445px;
+left: calc(50% - 383px/2);
+top: 809px;
+
+background: #272727;
+border-radius: 0px 0px 35px 35px;
+
+
+/* Frame 1707484483 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+margin: 0 auto;
+width: 353px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 141px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo and search */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 125px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* Frame 1707484491 */
+
+width: 55px;
+height: 55px;
+
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* image 1 */
+
+position: absolute;
+width: 151px;
+height: 101px;
+left: -45px;
+top: -10px;
+
+background: url(image.png);
+
+
+/* Frame 1707484494 */
+
+width: 55px;
+height: 55px;
+
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px -20px;
+
+
+/* image 2 */
+
+position: absolute;
+width: 105px;
+height: 158px;
+left: -26px;
+top: -33px;
+
+background: url(image.png);
+
+
+/* Frame 1707484495 */
+
+width: 55px;
+height: 55px;
+
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* image 3 */
+
+position: absolute;
+width: 63px;
+height: 84px;
+left: -3px;
+top: -12px;
+
+background: url(image.png);
+
+
+/* Frame 1707484482 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 10px;
+gap: 10px;
+
+width: 36px;
+height: 27px;
+
+background: rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(7px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* +4 */
+
+width: 16px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: right;
+letter-spacing: -0.005em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 5px;
+
+width: 212px;
+height: 41px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Peak Seekers */
+
+width: 212px;
+height: 17px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 17px;
+/* identical to box height, or 100% */
+text-align: right;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* subscribes */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 212px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* members */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 87px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* members */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Path */
+
+position: absolute;
+left: 2.73%;
+right: 86.35%;
+top: 62.5%;
+bottom: 20.83%;
+
+border: 1.15px solid #FFFFFF;
+
+
+/* Oval */
+
+position: absolute;
+left: 5%;
+right: 88.63%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.15px solid #FFFFFF;
+
+
+/* Path */
+
+position: absolute;
+left: 16.38%;
+right: 79.98%;
+top: 62.5%;
+bottom: 20.83%;
+
+border: 1.15px solid #FFFFFF;
+
+
+/* Path */
+
+position: absolute;
+left: 14.56%;
+right: 82.26%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.15px solid #FFFFFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 78.16%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* 7 members */
+
+width: 63px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: right;
+letter-spacing: -0.005em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* card-2/content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 30px;
+gap: 30px;
+isolation: isolate;
+
+position: absolute;
+width: 383px;
+height: 430px;
+left: 5px;
+top: calc(50% - 430px/2 + 528px);
+
+background: #FFFFFF;
+border-radius: 35px;
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+
+width: 323px;
+height: 370px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+z-index: 0;
+
+
+/* Chasing sunsets and mountain tops */
+
+width: 226px;
+height: 93px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 31px;
+/* or 86% */
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* group options */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 323px;
+height: 95px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 323px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* tag */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: #F3F3F3;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Hi Carsten, how can */
+
+width: 54px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #383838;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* tag */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: #F3F3F3;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Hi Carsten, how can */
+
+width: 35px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #383838;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* tag */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: #F3F3F3;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Hi Carsten, how can */
+
+width: 68px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #383838;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* tag */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 10px;
+gap: 10px;
+
+width: 77.75px;
+height: 25px;
+
+background: #F3F3F3;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Hi Carsten, how can */
+
+width: 60px;
+height: 13px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #383838;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 323px;
+height: 55px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* dislike */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 55px;
+height: 55px;
+
+background: #F3F3F3;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* star */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 27.27%;
+right: 27.27%;
+top: 27.27%;
+bottom: 27.27%;
+
+opacity: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 22.14px;
+height: 22.14px;
+left: calc(50% - 22.14px/2 + 0px);
+top: calc(50% - 22.14px/2 + 0px);
+
+background: #000000;
+
+
+/* like */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 55px;
+height: 55px;
+
+background: #F3F3F3;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Multiple Forward Right */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.57%;
+right: 5.21%;
+top: 15.62%;
+bottom: 15.62%;
+
+background: #000000;
+
+
+/* like */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 99px;
+height: 55px;
+
+background: #F45A1C;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 16.41px;
+height: 16.41px;
+
+background: #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* like */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 99px;
+height: 55px;
+
+background: #75E200;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* heart */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 39.48%;
+right: 39.48%;
+top: 34.44%;
+bottom: 31.85%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.37%;
+right: 37.37%;
+top: 27.27%;
+bottom: 27.27%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* JoyfulFriendsOutdoorSelfie 2 */
+
+position: absolute;
+width: 408px;
+height: 226px;
+left: -25px;
+top: -71px;
+
+background: url(Sunny Day Gathering.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* home-indicator */
+
+position: absolute;
+width: 393px;
+height: 21px;
+left: calc(50% - 393px/2);
+bottom: 0px;
+
+
+
+/* indicator-bar */
+
+position: absolute;
+width: 139px;
+height: 5px;
+left: calc(50% - 139px/2);
+bottom: 8px;
+
+background: #FFFFFF;
+border-radius: 100px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 15px;
+gap: 15px;
+
+position: absolute;
+width: 393px;
+height: 55px;
+left: 0px;
+top: 64px;
+
+
+
+/* header/menu-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+
+margin: 0 auto;
+width: 55px;
+height: 55px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon-menu */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+
+
+/* Path */
+
+position: absolute;
+left: 32.77%;
+right: 32.76%;
+top: 48.67%;
+bottom: 48.67%;
+
+border: 1.5px solid #232021;
+
+
+/* Path */
+
+position: absolute;
+left: 32.77%;
+right: 32.76%;
+top: 61.1%;
+bottom: 36.25%;
+
+border: 1.5px solid #232021;
+
+
+/* Path */
+
+position: absolute;
+left: 32.77%;
+right: 32.77%;
+top: 36.25%;
+bottom: 61.1%;
+
+border: 1.5px solid #232021;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 18.18%;
+right: 18.18%;
+top: 18.18%;
+bottom: 18.18%;
+
+
+
+/* header/logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 11px;
+
+margin: 0 auto;
+width: 139px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* friendlyhours */
+
+width: 139px;
+height: 20px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+/* identical to box height, or 80% */
+letter-spacing: -0.02em;
+text-transform: lowercase;
+
+color: #232021;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* header/notifications */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+isolation: isolate;
+
+margin: 0 auto;
+width: 55px;
+height: 55px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* notification-badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: -11px;
+top: 17px;
+
+background: linear-gradient(119.24deg, #F29B58 47.1%, #DB90BD 76.69%);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 5 */
+
+width: 21px;
+height: 18px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 510;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* icon-bell */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group */
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 10px;
+top: 10px;
+
+
+
+/* a */
+
+position: absolute;
+left: 18.18%;
+right: 18.18%;
+top: 18.18%;
+bottom: 18.18%;
+
+
+
+/* a */
+
+position: absolute;
+left: 18.18%;
+right: 18.18%;
+top: 18.18%;
+bottom: 18.18%;
+
+
+
+/* Path */
+
+position: absolute;
+left: 45.76%;
+right: 45.76%;
+top: 69.89%;
+bottom: 27.46%;
+
+border: 1.15px solid #232021;
+
+
+/* Path */
+
+position: absolute;
+left: 31.44%;
+right: 31.44%;
+top: 31.44%;
+bottom: 36.66%;
+
+border: 1.15px solid #232021;
+
+
+/* Path */
+
+position: absolute;
+left: 60.48%;
+right: 31.57%;
+top: 26.27%;
+bottom: 65.78%;
+
+border: 1.15px solid #232021;
+
+
+/* Path */
+
+position: absolute;
+left: 31.57%;
+right: 60.48%;
+top: 26.27%;
+bottom: 65.78%;
+
+border: 1.15px solid #232021;
+
+
+/* tab-bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 5px;
+
+position: absolute;
+width: 299px;
+height: 59px;
+left: 49px;
+top: 762px;
+
+background: #232021;
+border-radius: 60px;
+
+
+/* tab-favorites */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: linear-gradient(119.24deg, #F29B58 47.1%, #DB90BD 76.69%);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon-heart */
+
+width: 35px;
+height: 35px;
+
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.54%;
+bottom: 11.73%;
+
+background: #F6FEFC;
+
+
+/* tab-groups */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* icon-groups */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 8.33%;
+bottom: 58.33%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 75%;
+right: 12.5%;
+top: 16.67%;
+bottom: 62.5%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 75%;
+top: 16.67%;
+bottom: 62.5%;
+
+border: 1.15px solid #F6FEFC;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 54.17%;
+bottom: 12.5%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 83.33%;
+right: 4.17%;
+top: 58.33%;
+bottom: 20.83%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 83.33%;
+top: 58.33%;
+bottom: 20.83%;
+
+border: 1.15px solid #F6FEFC;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* tab-home */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* icon-home */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 66.67%;
+bottom: 29.17%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* tab-chat */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* icon-chat */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 25%;
+top: 25%;
+bottom: 8.33%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.31%;
+right: 8.33%;
+top: 8.33%;
+bottom: 38.6%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.92%;
+right: 39.58%;
+top: 50%;
+bottom: 41.67%;
+
+background: #F6FEFC;
+
+
+/* tab-profile */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* icon-profile */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 8.33%;
+bottom: 58.33%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 54.17%;
+bottom: 12.5%;
+
+border: 1.15px solid #F6FEFC;
+
+
+
+

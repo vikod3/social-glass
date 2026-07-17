@@ -1,0 +1,16 @@
+{
+  "name": "friendlyhours-screen-3",
+  "private": true,
+  "scripts": {
+    "build:glass": "esbuild liquid-glass-controls.jsx --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" --format=iife --platform=browser --target=es2020 --outfile=liquid-glass-controls.js",
+    "build:offline": "npm run build:glass && node build-offline.mjs"
+  },
+  "dependencies": {
+    "@samasante/liquid-glass": "0.1.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.6"
+  }
+}

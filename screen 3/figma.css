@@ -1,0 +1,1554 @@
+/* Voice chat */
+
+position: relative;
+width: 393px;
+height: 852px;
+
+background: #232021;
+
+
+/* background */
+
+position: absolute;
+width: 393px;
+height: 737px;
+left: 0px;
+top: 0px;
+
+border-radius: 0px 0px 35px 35px;
+
+
+/* background-fill */
+
+position: absolute;
+width: 393px;
+height: 737px;
+left: 0px;
+top: 0px;
+
+background: #E2EAE8;
+border-radius: 0px 0px 35px 35px;
+
+
+/* video-grid-mask */
+
+position: absolute;
+width: 383px;
+height: 588px;
+left: 5px;
+top: 144px;
+
+
+
+/* video-grid-mask-shape */
+
+position: absolute;
+visibility: hidden;
+width: 393px;
+height: 914.98px;
+left: 0px;
+top: -178.18px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #838383 64.13%, rgba(115, 115, 115, 0) 100%);
+
+
+/* video-grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 383px;
+height: 588px;
+left: 5px;
+top: 144px;
+
+
+
+/* video-row-1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 383px;
+height: 192.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-1 */
+
+width: 189px;
+height: 192.67px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-bg */
+
+position: absolute;
+width: 124.33px;
+height: 166.04px;
+left: 0px;
+top: 0px;
+
+background: #4F4F4F;
+border-radius: 32px;
+
+
+/* video-tile-image */
+
+position: absolute;
+width: 433px;
+height: 327px;
+right: -244px;
+bottom: -103.27px;
+
+background: url(image.png);
+
+
+/* status-indicator */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+
+/* icon-soundwave */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: -16.67%;
+top: 16.67%;
+bottom: 83.33%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 66.67%;
+right: -8.33%;
+top: 29.17%;
+bottom: 70.83%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 25%;
+top: 29.17%;
+bottom: 70.83%;
+
+border: 1px solid #FFFFFF;
+transform: matrix(0, 1, 1, 0, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 83.33%;
+right: 8.33%;
+top: 45.83%;
+bottom: 54.17%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 75%;
+top: 45.83%;
+bottom: 54.17%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* video-tile-2 */
+
+width: 189px;
+height: 192.67px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-bg */
+
+position: absolute;
+width: 124.33px;
+height: 166.04px;
+left: 0px;
+top: 0px;
+
+background: #4F4F4F;
+border-radius: 32px;
+
+
+/* video-tile-image */
+
+position: absolute;
+width: 480px;
+height: 240px;
+left: -164px;
+top: -18.06px;
+
+background: url(image.png);
+
+
+/* status-indicator */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+
+/* icon-mic */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 17px;
+height: 21px;
+left: 3.5px;
+top: 1.5px;
+
+background: #FFFFFF;
+
+
+/* Rec */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 8.33%;
+bottom: 33.33%;
+
+/* Base */
+border: 1px solid #22272F;
+border-radius: 21.9429px;
+
+
+/* Rec */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 45.83%;
+bottom: 8.33%;
+
+border: 1px solid #FFFFFF;
+
+
+/* video-row-2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 383px;
+height: 192.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-3 */
+
+width: 189px;
+height: 192.67px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-bg */
+
+position: absolute;
+width: 124.33px;
+height: 166.04px;
+left: 0px;
+top: 0px;
+
+background: #4F4F4F;
+border-radius: 32px;
+
+
+/* video-tile-image */
+
+position: absolute;
+width: 489px;
+height: 368px;
+right: -206px;
+bottom: -138.23px;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* status-indicator */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+
+/* icon-mic-off */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.42%;
+right: 6.25%;
+top: 10.42%;
+bottom: 6.25%;
+
+border: 1px solid #FFFFFF;
+
+
+/* Subtract */
+
+position: absolute;
+width: 17px;
+height: 21px;
+left: 3.5px;
+top: 1.5px;
+
+background: #FFFFFF;
+
+
+/* Icon */
+
+position: absolute;
+width: 17px;
+height: 21px;
+left: 3.5px;
+top: 1.5px;
+
+background: #FFFFFF;
+
+
+/* Rec */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 8.33%;
+bottom: 33.33%;
+
+/* Base */
+border: 1px solid #22272F;
+border-radius: 21.9429px;
+
+
+/* Rec */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 45.83%;
+bottom: 8.33%;
+
+border: 1px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.86%;
+right: 1.81%;
+top: 12.03%;
+bottom: 4.64%;
+
+border: 3px solid #FFFFFF;
+
+
+/* video-tile-4 */
+
+width: 189px;
+height: 192.67px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-bg */
+
+position: absolute;
+width: 124.33px;
+height: 166.04px;
+left: 0px;
+top: 0px;
+
+background: #4F4F4F;
+border-radius: 32px;
+
+
+/* video-tile-image */
+
+position: absolute;
+width: 400px;
+height: 222px;
+left: -155px;
+top: -27.33px;
+
+background: url(Sunny Day Gathering.png);
+
+
+/* status-indicator */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+
+/* icon-soundwave */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: -16.67%;
+top: 16.67%;
+bottom: 83.33%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 66.67%;
+right: -8.33%;
+top: 29.17%;
+bottom: 70.83%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 25%;
+top: 29.17%;
+bottom: 70.83%;
+
+border: 1px solid #FFFFFF;
+transform: matrix(0, 1, 1, 0, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 83.33%;
+right: 8.33%;
+top: 45.83%;
+bottom: 54.17%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 75%;
+top: 45.83%;
+bottom: 54.17%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* video-row-3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 383px;
+height: 192.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-5 */
+
+width: 189px;
+height: 192.67px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-bg */
+
+position: absolute;
+width: 124.33px;
+height: 166.04px;
+left: 0px;
+top: 0px;
+
+background: #4F4F4F;
+border-radius: 32px;
+
+
+/* video-tile-image */
+
+position: absolute;
+width: 505px;
+height: 279px;
+left: -4px;
+top: -85.67px;
+
+background: url(Sunny Day Gathering.png);
+
+
+/* status-indicator */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+
+/* icon-mic */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 17px;
+height: 21px;
+left: 3.5px;
+top: 1.5px;
+
+background: #FFFFFF;
+
+
+/* Rec */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 8.33%;
+bottom: 33.33%;
+
+/* Base */
+border: 1px solid #22272F;
+border-radius: 21.9429px;
+
+
+/* Rec */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 45.83%;
+bottom: 8.33%;
+
+border: 1px solid #FFFFFF;
+
+
+/* video-tile-6 */
+
+width: 189px;
+height: 192.67px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* video-tile-bg */
+
+position: absolute;
+width: 124.33px;
+height: 166.04px;
+left: 0px;
+top: 0px;
+
+background: #4F4F4F;
+border-radius: 32px;
+
+
+/* video-tile-image */
+
+position: absolute;
+width: 345px;
+height: 459px;
+left: -62px;
+top: -80.14px;
+
+background: url(Снимок экрана 2026-01-30 в 13.00.09.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* status-indicator */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 5px;
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100px;
+
+
+/* icon-mic-off */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.42%;
+right: 6.25%;
+top: 10.42%;
+bottom: 6.25%;
+
+border: 1px solid #FFFFFF;
+
+
+/* Subtract */
+
+position: absolute;
+width: 17px;
+height: 21px;
+left: 3.5px;
+top: 1.5px;
+
+background: #FFFFFF;
+
+
+/* Icon */
+
+position: absolute;
+width: 17px;
+height: 21px;
+left: 3.5px;
+top: 1.5px;
+
+background: #FFFFFF;
+
+
+/* Rec */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 8.33%;
+bottom: 33.33%;
+
+/* Base */
+border: 1px solid #22272F;
+border-radius: 21.9429px;
+
+
+/* Rec */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 45.83%;
+bottom: 8.33%;
+
+border: 1px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.86%;
+right: 1.81%;
+top: 12.03%;
+bottom: 4.64%;
+
+border: 3px solid #FFFFFF;
+
+
+/* home-indicator */
+
+position: absolute;
+width: 393px;
+height: 21px;
+left: calc(50% - 393px/2);
+bottom: 0px;
+
+
+
+/* home-indicator-bar */
+
+position: absolute;
+width: 139px;
+height: 5px;
+left: calc(50% - 139px/2);
+bottom: 8px;
+
+background: #000000;
+border-radius: 100px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* action-bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 5px;
+
+position: absolute;
+width: 239px;
+height: 59px;
+left: calc(50% - 239px/2);
+top: 762px;
+
+background: #232021;
+border-radius: 60px;
+
+
+/* action-camera */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon-video-camera */
+
+width: 36px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 34.15px;
+height: 28.15px;
+left: 0.92px;
+top: 3.92px;
+
+background: #F6FEFC;
+
+
+/* Rec */
+
+position: absolute;
+left: 4.17%;
+right: 20.83%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Base */
+border: 1.15px solid #22272F;
+border-radius: 5px;
+
+
+/* Vector */
+
+position: absolute;
+left: 79.17%;
+right: 4.17%;
+top: 25%;
+bottom: 25%;
+
+/* Base */
+border: 1.15px solid #22272F;
+border-radius: 1.5px;
+
+
+/* action-headphone */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* icon-headphone */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* action-mic */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: rgba(35, 32, 33, 0.2);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* icon-mic */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 24.48px;
+height: 30.32px;
+left: 5.26px;
+top: 2.34px;
+
+background: #F6FEFC;
+
+
+/* Rec */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 8.33%;
+bottom: 33.33%;
+
+/* Base */
+border: 1.15px solid #22272F;
+border-radius: 32px;
+
+
+/* Rec */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 45.83%;
+bottom: 8.33%;
+
+border: 1.15px solid #FFFFFF;
+
+
+/* action-end-call */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 55px;
+height: 55px;
+
+background: linear-gradient(119.24deg, #F29B58 47.1%, #DB90BD 76.69%);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* icon-call-slash */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon-call-slash-group */
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 0px;
+top: 0px;
+
+
+
+/* icon-call-slash-paths */
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 0px;
+top: 0px;
+
+
+
+/* icon-call-slash-inner */
+
+position: absolute;
+width: 29.17px;
+height: 29.17px;
+left: 2.92px;
+top: 2.92px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 43%;
+right: 8.46%;
+top: 58.5%;
+bottom: 8.33%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 55.29%;
+top: 8.33%;
+bottom: 31.29%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.15px solid #F6FEFC;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Status Bar - iPhone */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 112px;
+
+position: absolute;
+width: 393px;
+height: 64px;
+left: calc(50% - 393px/2);
+top: 0px;
+
+
+
+/* Time */
+
+width: 140.5px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Time */
+
+position: absolute;
+left: 36.96%;
+right: 36.71%;
+top: 33.96%;
+bottom: 25.3%;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 590;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+
+color: #000000;
+
+
+
+/* Levels */
+
+width: 140.5px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Battery */
+
+position: absolute;
+left: 57.65%;
+right: 22.9%;
+top: 42.59%;
+bottom: 33.33%;
+
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 25px;
+left: calc(50% - 25px/2 + 23.25px);
+top: 42.59%;
+bottom: 33.33%;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+border: 1px solid #000000;
+border-radius: 4.3px;
+
+
+/* Cap */
+
+position: absolute;
+width: 1.33px;
+left: calc(50% - 1.33px/2 + 37.41px);
+top: 51.45%;
+bottom: 41.01%;
+
+background: #000000;
+mix-blend-mode: normal;
+opacity: 0.4;
+
+
+/* Capacity */
+
+position: absolute;
+width: 21px;
+left: calc(50% - 21px/2 + 23.25px);
+top: 46.3%;
+bottom: 37.04%;
+
+background: #000000;
+border-radius: 2.5px;
+
+
+/* Wifi */
+
+position: absolute;
+width: 17.14px;
+left: calc(50% - 17.14px/2 - 4.98px);
+top: 43.77%;
+bottom: 33.4%;
+
+background: #000000;
+
+
+/* Cellular Connection */
+
+position: absolute;
+width: 19.2px;
+left: calc(50% - 19.2px/2 - 30.65px);
+top: 43.58%;
+bottom: 33.77%;
+
+background: #000000;
+
+
+/* header */
+
+position: absolute;
+width: 393px;
+height: 55px;
+left: 0px;
+top: 64px;
+
+
+
+/* header-back-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 15px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.2);
+border-radius: 100px;
+
+
+/* icon-arrow-left */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 36.46%;
+right: 36.46%;
+top: 39.58%;
+bottom: 39.58%;
+
+border: 1.15px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.15px solid #000000;
+
+
+/* header-title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 11px;
+
+position: absolute;
+width: 108px;
+height: 20px;
+left: calc(50% - 108px/2 + 0.5px);
+top: 17.5px;
+
+
+
+/* MoodBoard */
+
+width: 108px;
+height: 20px;
+
+font-family: 'Inter Tight';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+/* identical to box height, or 80% */
+letter-spacing: -0.02em;
+text-transform: lowercase;
+
+color: #E2EAE8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* header-chat-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+isolation: isolate;
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 323px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.2);
+border-radius: 100px;
+
+
+/* badge-count */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: -11px;
+top: 17px;
+
+background: linear-gradient(119.24deg, #F29B58 47.1%, #DB90BD 76.69%);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 5 */
+
+width: 21px;
+height: 18px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 510;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* icon-chat */
+
+width: 35px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 25%;
+top: 25%;
+bottom: 8.33%;
+
+border: 1.15px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.3%;
+right: 8.33%;
+top: 8.33%;
+bottom: 38.6%;
+
+border: 1.15px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.92%;
+right: 39.58%;
+top: 50%;
+bottom: 41.67%;
+
+background: #000000;

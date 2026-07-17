@@ -1,0 +1,13 @@
+{
+  "name": "friendlyhours-social-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive showcase for the Friendlyhours mobile social screens.",
+  "scripts": {
+    "start": "node scripts/dev-server.mjs",
+    "dev": "node scripts/dev-server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
