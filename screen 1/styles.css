@@ -572,7 +572,7 @@ p {
   position: absolute;
   inset: calc(0px - var(--blur-overscan));
   content: "";
-  background-image: url("https://flick-award-65707097.figma.site/_assets/v11/d897b1379f6c4ed634dc06ada8dd6a106ad83e5f.png?h=1024");
+  background-image: url("assets/images/card-sunset-gathering.png");
   background-repeat: no-repeat;
   background-position:
     calc(var(--hero-left) + 1px + var(--blur-overscan))
